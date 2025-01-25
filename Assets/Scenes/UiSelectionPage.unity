@@ -1344,6 +1344,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1210888079715216489, guid: fde43a54866bf4842a4d989b406fffcd, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2014221751463349113, guid: fde43a54866bf4842a4d989b406fffcd, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig) VR
@@ -2064,6 +2068,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 4208103149485912897, guid: 3ac53d76fed432c478a868104c76151b, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4551381874652496666, guid: 3ac53d76fed432c478a868104c76151b, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig) AR
@@ -2075,6 +2083,14 @@ PrefabInstance:
     - target: {fileID: 4551381874652496666, guid: 3ac53d76fed432c478a868104c76151b, type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619655575586416724, guid: 3ac53d76fed432c478a868104c76151b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619655575586416724, guid: 3ac53d76fed432c478a868104c76151b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 5350572988699314307, guid: 3ac53d76fed432c478a868104c76151b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2494,7 +2510,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
