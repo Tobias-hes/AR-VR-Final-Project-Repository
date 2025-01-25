@@ -22,7 +22,7 @@ public class DeleteCylinder : MonoBehaviour
     {
 
         //Debug.Log(collision.gameObject.tag);
-        if (collision.gameObject.tag == "Floor"|| collision.gameObject.tag == "Controller")
+        if (collision.gameObject.tag == "Floor"|| collision.gameObject.tag == "Controller"|| collision.gameObject.tag == "Cylinder")
         {
             Destroy(gameObject, 0.1f);
         }
