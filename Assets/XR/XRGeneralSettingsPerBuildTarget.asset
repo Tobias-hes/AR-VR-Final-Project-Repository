@@ -14,6 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 7398654586549149761}
   m_InitManagerOnStart: 1
+--- !u!114 &-3562492504315932849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Metro Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 5017279133818661699}
+  m_InitManagerOnStart: 1
 --- !u!114 &-3132352631773996871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,7 +60,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: a0b472382f653644980788c41945f19b, type: 2}
+  - {fileID: 11400000, guid: 7d0f1d4b57bf76141916c81356990f67, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,13 +73,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 0700000001000000240000000d00000004000000
+  Keys: 0700000001000000240000000d000000040000000e000000
   Values:
   - {fileID: 2916159239322656817}
   - {fileID: 6298631133828510153}
   - {fileID: 5044214587880590914}
   - {fileID: 8187135382422954540}
   - {fileID: -7960752832671130512}
+  - {fileID: -3562492504315932849}
 --- !u!114 &2916159239322656817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,6 +95,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 5973652476788332609}
   m_InitManagerOnStart: 1
+--- !u!114 &5017279133818661699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Metro Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders: []
 --- !u!114 &5044214587880590914
 MonoBehaviour:
   m_ObjectHideFlags: 0
