@@ -12,6 +12,10 @@ public class UIInteractionManager : MonoBehaviour
     private GameObject VRCanvas;
     [SerializeField]
     private GameObject ARCanvas;
+    [SerializeField]
+    private GameObject VRGameSelectCanvas;
+    [SerializeField]
+    private GameObject ARGameSelectCanvas;
 
     // Start is called before the first frame update
     void Start()
@@ -27,17 +31,42 @@ public class UIInteractionManager : MonoBehaviour
     public void OnVRSelect()
     {
         Debug.Log("VR Button Is Working");
+
         ARrig.SetActive(false);
         VRrig.SetActive(true);
+
         ARCanvas.SetActive(false);
         VRCanvas.SetActive(true);
+
+        VRGameSelectCanvas.SetActive(true);
+        ARGameSelectCanvas.SetActive(false);
     }
     public void OnARSelect()
     {
         Debug.Log("AR Button Is Working");
         VRrig.SetActive(false);
         ARrig.SetActive(true);
+
         VRCanvas.SetActive(false);
         ARCanvas.SetActive(true);
+
+        VRGameSelectCanvas.SetActive(false);
+        ARGameSelectCanvas.SetActive(true);
     }
+    public void LoadCatching()
+    {
+        Debug.Log("AR Button Is Working");
+        
+    }
+    public void LoadDodge()
+    {
+        Debug.Log("AR Button Is Working");
+
+    }
+    public void LoadMemory()
+    {
+        Debug.Log("AR Button Is Working");
+
+    }
+
 }
