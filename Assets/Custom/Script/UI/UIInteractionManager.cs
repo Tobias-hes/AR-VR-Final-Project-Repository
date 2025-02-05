@@ -45,12 +45,12 @@ public class UIInteractionManager : MonoBehaviour
     {
         Debug.Log("AR Button Is Working");
         VRrig.SetActive(false);
-        ARrig.SetActive(true);
-
         VRCanvas.SetActive(false);
-        ARCanvas.SetActive(true);
-
         VRGameSelectCanvas.SetActive(false);
+
+        
+        ARrig.SetActive(true);
+        ARCanvas.SetActive(true);
         ARGameSelectCanvas.SetActive(true);
     }
     public void LoadCatching()
