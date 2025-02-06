@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIInteractionManager : MonoBehaviour
 {
@@ -53,17 +54,35 @@ public class UIInteractionManager : MonoBehaviour
         ARCanvas.SetActive(true);
         ARGameSelectCanvas.SetActive(true);
     }
-    public void LoadCatching()
+    public void LoadCatchingVR()
     {
-        Debug.Log("AR Button Is Working");
-        
+        SceneManager.LoadScene("DropSystemVR");
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("DropSystemVR"));
+
     }
-    public void LoadDodge()
+    public void LoadDodgeVR()
     {
         Debug.Log("AR Button Is Working");
 
     }
-    public void LoadMemory()
+    public void LoadMemoryVR()
+    {
+        Debug.Log("AR Button Is Working");
+
+
+    }
+    public void LoadCatchingAR()
+    {
+        Debug.Log("AR Button Is Working");
+        
+
+    }
+    public void LoadDodgeAR()
+    {
+        Debug.Log("AR Button Is Working");
+
+    }
+    public void LoadMemoryAR()
     {
         Debug.Log("AR Button Is Working");
 
