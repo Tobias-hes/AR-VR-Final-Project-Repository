@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DropCylinder : MonoBehaviour
 {
-    float time = 1;
+    float time = 5;
     float timeCheck =0;
     private Rigidbody[] tempCylinders;
     private List<Rigidbody> cylinders;
